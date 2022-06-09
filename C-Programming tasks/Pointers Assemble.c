@@ -17,9 +17,11 @@ void sort(int n,int* ptr){
 int main(){
     int n,arr[1000],i;
     scanf("%d\n",&n);
+    
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    
     sort(n,arr);
     return 0;
 }
