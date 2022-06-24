@@ -18,12 +18,11 @@
      fgets(ans, sizeof(ans), stdin);
 
      for(int i=0;i<n;i++)
-     {check = strstr(ans,s[i]);
+     {
+      check = strstr(ans,s[i]);
         if(check!=NULL)
           marks=marks+m[i];
-
       }
        printf("%d",marks);
        return 0;
-
  }
